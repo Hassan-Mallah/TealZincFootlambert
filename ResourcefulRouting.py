@@ -23,8 +23,7 @@ class TodSimple(Resource):
         return {todo_id: todos[todo_id]}
 
 
-api.add_resource(TodSimple, '/', endpoint='todos') # to show list
-api.add_resource(TodSimple, '/<string:todo_id>', endpoint='todo') # to show 1 item or put
+api.add_resource(TodSimple, '/<string:todo_id>', '/')
 
 if __name__ == '__main__':
     app.run(debug=True)
