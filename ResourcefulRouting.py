@@ -1,3 +1,9 @@
+# To do List
+# example:
+# Todos list: curl http://127.0.0.1:5000/
+# add a task: curl http://localhost:5000/todo1 -d "data=Remember the milk" -X PUT
+# show a task:  curl http://localhost:5000/todo1
+
 from flask import Flask, request
 from flask_restful import  Resource, Api
 
