@@ -6,3 +6,4 @@ Flask Restfull test
 https://flask-restful.readthedocs.io/en/latest/quickstart.html
 - HelloWorld + get request: AMinimalAPI .py 
 - get + put request: ResourcefulRouting .py
+- get, put, post, delete: ArgumentParsing.py

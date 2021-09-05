@@ -1,4 +1,4 @@
-# To do List
+# To do List: GET + PUT
 # example:
 # Todos list: curl http://127.0.0.1:5000/
 # add a task: curl http://localhost:5000/todo1 -d "data=Remember the milk" -X PUT
